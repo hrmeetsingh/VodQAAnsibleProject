@@ -1,0 +1,5 @@
+---
+# playbook
+- hosts: test-servers
+  roles:
+   - apache

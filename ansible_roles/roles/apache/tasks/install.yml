@@ -1,0 +1,7 @@
+---
+# installation of apache
+
+- name: install apache
+  apt:
+    name: apache2
+    state: latest 
